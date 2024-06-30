@@ -1,5 +1,5 @@
 # GolangBenchmarkTestPractice
-A little practice on Golang. These tests represent matrices adding with 3 different scenarios of L1 CPU cache usage:
+A little Golang practice. These tests represent matrices adding with 3 different scenarios of L1 CPU cache usage:
 1. MatrixCombination:\
    Plain matrices addition with 1:1 indexes scenario\
    ![image](https://github.com/koravel/GolangBenchmarkTestPractice/assets/26851016/7f272668-dc58-4701-b054-4061df831f99)
@@ -10,7 +10,7 @@ A little practice on Golang. These tests represent matrices adding with 3 differ
    Transposed matrix addition with breaking down processing to n batches\
    ![image](https://github.com/koravel/GolangBenchmarkTestPractice/assets/26851016/e360b65d-5220-4d7f-b7d8-5f00f02cf3f9)
 
-Based on this article: ![Go and CPU caches](https://teivah.medium.com/go-and-cpu-caches-af5d32cc5592)
+Based on this article: [Go and CPU caches](https://teivah.medium.com/go-and-cpu-caches-af5d32cc5592)
 
 Was tested on Ryzen 5700X(16 logical cores) and 64GB RAM
 As a result most efficient was 64 items batch', giving 50+% boost just from awaring how CPU caching works.
