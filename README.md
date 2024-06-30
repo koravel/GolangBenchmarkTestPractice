@@ -8,7 +8,7 @@ A little practice on Golang. These tests represent matrices adding with 3 differ
    ![image](https://github.com/koravel/GolangBenchmarkTestPractice/assets/26851016/5b5e2d94-662d-4a53-9eb3-39c087e98ee2)
 3. MatrixReversedCombinationPerBlock:\
    Transposed matrix addition with breaking down processing to n batches\
-   ![image](https://github.com/koravel/GolangBenchmarkTestPractice/assets/26851016/e360b65d-5220-4d7f-b7d8-5f00f02cf3f9)\
+   ![image](https://github.com/koravel/GolangBenchmarkTestPractice/assets/26851016/e360b65d-5220-4d7f-b7d8-5f00f02cf3f9)
 
 Based on this article: ![Go and CPU caches](https://teivah.medium.com/go-and-cpu-caches-af5d32cc5592)
 
